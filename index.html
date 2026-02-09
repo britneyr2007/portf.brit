@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Britney Rebello | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+
+    <div class="mode-switcher" onclick="toggleTheme()">☀️</div>
+
+    <header class="magazine-header reveal">
+        <h1>BRITNEY REBELLO</h1>
+        <nav class="editorial-nav">
+            <div class="nav-container">
+                <ul id="nav-menu">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#archives">archives</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-editorial">
+            <div class="hero-wrapper">
+                <div class="hero-overlay">
+                    <h2 class="hero-serif-top anim-slide-up">Elegance &</h2>
+                    <h2 class="hero-bold-bottom anim-slide-up-delay">LOGIC</h2>
+                    <button class="btn-continue fade-in">Continue:</button>
+                </div>
+                <div class="hero-img-bg parallax"></div> 
+            </div>
+        </section>
+
+        <section id="about" class="pink-editorial reveal">
+            <article class="editorial-content">
+                <h3 class="editorial-heading">
+                    Code is <span class="cursive-heading">power</span>. <br>
+                    A system is its <span class="cursive-heading">sword</span>.
+                </h3>
+                
+                <div class="editorial-row">
+                    <div class="editorial-graphic reveal-left"></div>
+                    <div class="editorial-copy reveal-right">
+                        <p>Architecting digital efficiency through <strong>C, Java, and Data Validation Systems</strong>. Currently pursuing Computer Engineering at Fr. Conceicao Rodrigues College of Engineering.</p>
+                        
+                        <table class="exp-table">
+                            <tr>
+                                <td>Course: SE Computer Engg.</td>
+                                <td>Subject: Full Stack Development</td>
+                            </tr>
+                        </table>
+
+                        <button class="btn-read">View Credentials</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="archives" class="archives-grid">
+            <h2 class="grid-label reveal">ARCHIVES</h2>
+            <div class="grid-columns">
+                <div class="grid-item reveal">
+                    <a href="https://github.com/britneyr2007/britney.bulgari_clone" target="_blank" class="project-link">
+                        <div class="item-frame">
+                            <img src="website.png" alt="Bulgari Clone Preview" class="grid-img">
+                        </div>
+                        <h4>BULGARI CLONE</h4>
+                        <p>Web Design • Luxury Editorial</p>
+                    </a>
+                </div>
+
+                <div class="grid-item reveal">
+                    <a href="https://github.com/britneyr2007/Student-Learning-Platform" target="_blank" class="project-link">
+                        <div class="item-frame">
+                            <img src="student.png" alt="Learning Platform Preview" class="grid-img">
+                        </div>
+                        <h4>STUDENT PLATFORM</h4>
+                        <p>Java • OOP • Database</p>
+                    </a>
+                </div>
+
+                <div class="grid-item reveal">
+                    <a href="https://pin.it/3HjjCUkPm" target="_blank" class="project-link">
+                        <div class="item-frame">
+                            <img src="pretty.jpeg" alt="Pinterest Inspiration" class="grid-img">
+                        </div>
+                        <h4>PINTEREST</h4>
+                        <p>Inspiration • Visual Identity</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section reveal">
+            <div class="contact-wrapper">
+                <h2 class="contact-title">CONNECT</h2>
+                
+                <form id="contact-form" class="editorial-form">
+                    <div class="form-row">
+                        <input type="text" name="user_name" placeholder="YOUR NAME" required>
+                        <input type="email" name="user_email" placeholder="YOUR EMAIL" required>
+                    </div>
+                    <textarea name="message" placeholder="YOUR MESSAGE" rows="4" required></textarea>
+                    <button type="submit" id="submit-btn" class="btn-read">Submit</button>
+                </form>
+                
+                <p id="form-status" style="margin-top: 15px; font-size: 0.8rem; font-style: italic;"></p>
+
+                <div class="contact-details">
+                    <p>britneyrebello20@gmail.com</p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/britney-rebello-520b12296" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/britneyr2007" target="_blank">GitHub</a>
+                        <a href="https://pin.it/3HjjCUkPm" target="_blank">Pinterest</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
